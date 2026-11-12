@@ -2,7 +2,7 @@
 """
 Módulo 2: Clase Abstracta Base y Modelo de Cliente.
 Proyecto: Sistema Integral de Gestión de Clientes, Servicios y Reservas - Software FJ.
-Curso: Programación (213023) - UNAD.
+Curso: Programación (213023_2204) - UNAD.
 """
 
 from abc import ABC, abstractmethod  # Importa herramientas para definir clases y métodos abstractos.
