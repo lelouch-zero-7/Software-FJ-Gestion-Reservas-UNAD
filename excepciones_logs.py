@@ -2,7 +2,7 @@
 """
 Módulo 1: Excepciones Personalizadas y Sistema de Logging.
 Proyecto: Sistema Integral de Gestión de Clientes, Servicios y Reservas - Software FJ.
-Curso: Programación (213023) - UNAD.
+Curso: Programación (213023_2204) - UNAD.
 """
 
 import logging  # Importa la librería estándar de Python para registro de eventos y errores en archivos.
