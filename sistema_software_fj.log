@@ -1,0 +1,25 @@
+2026-11-12 11:54:47 | INFO     | Sistema Software FJ inicializado correctamente en memoria.
+2026-11-12 11:54:47 | INFO     | Cliente registrado con éxito -> Cliente [CLI-01] | Doc: 1002548963 | Nombre: David Santiago Ruiz | Correo: david.ruiz@softwarefj.com | Tel: 3104567890 | Estado: Activo
+2026-11-12 11:54:47 | INFO     | Cliente registrado con éxito -> Cliente [CLI-02] | Doc: 1023456789 | Nombre: Wilian Alejandro Barreto | Correo: wilian.barreto@empresa.co | Tel: 3209876543 | Estado: Activo
+2026-11-12 11:54:47 | ERROR    | [Simulacion2_ClienteInvalido] ValidacionClienteError: [ERR-CLIENTE-001] (2026-11-12 11:54:47) -> Fallo al registrar el cliente 'Ana': El documento de identidad debe contener únicamente dígitos numéricos. | Causa original (ValueError): El documento de identidad debe contener únicamente dígitos numéricos.
+2026-11-12 11:54:47 | ERROR    | [RegistroCliente] ValidacionClienteError: [ERR-CLIENTE-001] (2026-11-12 11:54:47) -> Cliente duplicado: ya existe un registro con ID 'CLI-04' o documento '1002548963'.
+2026-11-12 11:54:47 | INFO     | Servicio habilitado en catálogo -> Servicio Sala [SRV-01] | Auditorio Innovación Cloud | Capacidad: 35 pers. | Tarifa: $120,000.00/h | Disponible
+2026-11-12 11:54:47 | INFO     | Servicio habilitado en catálogo -> Servicio Equipo [SRV-02] | Servidor Rack Dell PowerEdge | Stock: 2 unid. | Tarifa: $85,000.00/h + Seguro: $10,000.00/h
+2026-11-12 11:54:47 | INFO     | Servicio habilitado en catálogo -> Servicio Asesoría [SRV-03] | Auditoría Ciberseguridad ISO (Seguridad) | Consultor: Ing. Ronald Rodríguez | Tarifa: $150,000.00/h
+2026-11-12 11:54:47 | ERROR    | [Simulacion5_ServicioInvalido] ServicioNoDisponibleError: [ERR-SERVICIO-002] (2026-11-12 11:54:47) -> Error al configurar el servicio 'Sala Fantasma': La tarifa por hora debe ser un valor numérico mayor a cero. | Causa original (ValueError): La tarifa por hora debe ser un valor numérico mayor a cero.
+2026-11-12 11:54:47 | INFO     | Reserva gestionada exitosamente -> Reserva [RES-01] | Estado: CONFIRMADA | Cliente: David Santiago Ruiz | Servicio: Auditorio Innovación Cloud | Duración: 4h (Cant: 25) | Total c/IVA: $565,488.00
+2026-11-12 11:54:47 | INFO     | Auditoría finalizada para intento de reserva [RES-01].
+2026-11-12 11:54:47 | ERROR    | [GestionReserva] ServicioNoDisponibleError: [ERR-SERVICIO-002] (2026-11-12 11:54:47) -> La sala 'Auditorio Innovación Cloud' no se encuentra disponible.
+2026-11-12 11:54:47 | INFO     | Auditoría finalizada para intento de reserva [RES-02].
+2026-11-12 11:54:47 | INFO     | Reserva gestionada exitosamente -> Reserva [RES-03] | Estado: CONFIRMADA | Cliente: Wilian Alejandro Barreto | Servicio: Servidor Rack Dell PowerEdge | Duración: 6h (Cant: 2) | Total c/IVA: $678,300.00
+2026-11-12 11:54:47 | INFO     | Auditoría finalizada para intento de reserva [RES-03].
+2026-11-12 11:54:47 | ERROR    | [GestionReserva] ServicioNoDisponibleError: [ERR-SERVICIO-002] (2026-11-12 11:54:47) -> Stock insuficiente para 'Servidor Rack Dell PowerEdge'. Disponibles: 0.
+2026-11-12 11:54:47 | INFO     | Auditoría finalizada para intento de reserva [RES-04].
+2026-11-12 11:54:47 | INFO     | Reserva gestionada exitosamente -> Reserva [RES-05] | Estado: CONFIRMADA | Cliente: David Santiago Ruiz | Servicio: Auditoría Ciberseguridad ISO | Duración: 8h (Cant: 1) | Total c/IVA: $1,153,110.00
+2026-11-12 11:54:47 | INFO     | Auditoría finalizada para intento de reserva [RES-05].
+2026-11-12 11:54:47 | INFO     | Reserva RES-01 procesada y facturada por $565,488.00
+2026-11-12 11:54:47 | INFO     | Reserva RES-03 cancelada; stock de equipos restituido.
+2026-11-12 11:54:47 | ERROR    | [Simulacion11_EstadoIlegal] ReservaInvalidaError: [ERR-RESERVA-003] (2026-11-12 11:54:47) -> Operación no permitida: no se puede confirmar la reserva 'RES-03' en estado 'CANCELADA'.
+2026-11-12 11:54:47 | INFO     | Verificación de sobrecarga exitosa: $714,000.00
+2026-11-12 11:54:47 | ERROR    | [GestionReserva] ReservaInvalidaError: [ERR-RESERVA-003] (2026-11-12 11:54:47) -> No existe ningún cliente registrado con ID 'CLI-999'.
+2026-11-12 11:54:47 | INFO     | Auditoría finalizada para intento de reserva [RES-99].
