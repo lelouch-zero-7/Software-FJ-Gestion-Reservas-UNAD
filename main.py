@@ -3,7 +3,7 @@
 Módulo 5: Simulación Principal del Sistema Integral Software FJ.
 Ejecuta 12 operaciones completas (válidas e inválidas) demostrando estabilidad operativa,
 polimorfismo, sobrecarga de métodos y registro exhaustivo en archivo de logs.
-Proyecto: Fase 4 - Programación (213023) - UNAD.
+Proyecto: Fase 4 - Programación (213023_2204) - UNAD.
 """
 
 from excepciones_logs import SoftwareFJError
