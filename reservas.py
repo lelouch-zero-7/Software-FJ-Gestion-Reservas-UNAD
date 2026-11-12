@@ -2,7 +2,7 @@
 """
 Módulo 4: Clase Reserva y Gestor Central en Memoria (Sin Base de Datos).
 Proyecto: Sistema Integral de Gestión de Clientes, Servicios y Reservas - Software FJ.
-Curso: Programación (213023) - UNAD.
+Curso: Programación (213023_2204) - UNAD.
 """
 
 from datetime import datetime  # Importa datetime para auditar fechas de creación y actualización.
