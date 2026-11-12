@@ -2,7 +2,7 @@
 """
 Módulo 3: Clase Abstracta Servicio, Subclases Especializadas y Polimorfismo.
 Proyecto: Sistema Integral de Gestión de Clientes, Servicios y Reservas - Software FJ.
-Curso: Programación (213023) - UNAD.
+Curso: Programación (213023_2204) - UNAD.
 """
 
 from abc import abstractmethod  # Importa el decorador para definir métodos abstractos obligatorios.
